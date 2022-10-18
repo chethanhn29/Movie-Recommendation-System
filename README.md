@@ -11,63 +11,10 @@ The data are contained in six files, `genome-scores.csv`, `genome-tags.csv`, `li
 This and other GroupLens data sets are publicly available for download at <http://grouplens.org/datasets/>.
 
 
-Usage License
-=============
-
-Neither the University of Minnesota nor any of the researchers involved can guarantee the correctness of the data, its suitability for any particular purpose, or the validity of results based on the use of the data set. The data set may be used for any research purposes under the following conditions:
-
-* The user may not state or imply any endorsement from the University of Minnesota or the GroupLens Research Group.
-* The user must acknowledge the use of the data set in publications resulting from the use of the data set (see below for citation information).
-* The user may not redistribute the data without separate permission.
-* The user may not use this information for any commercial or revenue-bearing purposes without first obtaining permission from a faculty member of the GroupLens Research Project at the University of Minnesota.
-* The executable software scripts are provided "as is" without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of them is with you. Should the program prove defective, you assume the cost of all necessary servicing, repair or correction.
-
-In no event shall the University of Minnesota, its affiliates or employees be liable to you for any damages arising out of the use or inability to use these programs (including but not limited to loss of data or data being rendered inaccurate).
-
-If you have any further questions or comments, please email <grouplens-info@umn.edu>
-
-
-Citation
-========
-
-To acknowledge use of the dataset in publications, please cite the following paper:
-
-> F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4, Article 19 (December 2015), 19 pages. DOI=<http://dx.doi.org/10.1145/2827872>
-
-
-Further Information About GroupLens
-===================================
-
-GroupLens is a research group in the Department of Computer Science and Engineering at the University of Minnesota. Since its inception in 1992, GroupLens's research projects have explored a variety of fields including:
-
-* recommender systems
-* online communities
-* mobile and ubiquitious technologies
-* digital libraries
-* local geographic information systems
-
-GroupLens Research operates a movie recommender based on collaborative filtering, MovieLens, which is the source of these data. We encourage you to visit <http://movielens.org> to try it out! If you have exciting ideas for experimental work to conduct on MovieLens, send us an email at <grouplens-info@cs.umn.edu> - we are always interested in working with external collaborators.
-
 
 Content and Use of Files
 ========================
 
-Verifying the Dataset Contents
-------------------------------
-
-We encourage you to verify that the dataset you have on your computer is identical to the ones hosted at [grouplens.org](http://grouplens.org).  This is an important step if you downloaded the dataset from a location other than [grouplens.org](http://grouplens.org), or if you wish to publish research results based on analysis of the MovieLens dataset.
-
-We provide a [MD5 checksum](http://en.wikipedia.org/wiki/Md5sum) with the same name as the downloadable `.zip` file, but with a `.md5` file extension. To verify the dataset:
-
-    # on linux
-    md5sum ml-20m.zip; cat ml-20m.zip.md5
-
-    # on OSX
-    md5 ml-20m.zip; cat ml-20m.zip.md5
-
-    # windows users can download a tool from Microsoft (or elsewhere) that verifies MD5 checksums
-
-Check that the two lines of output contain the same hash value.
 
 Formatting and Encoding
 -----------------------
